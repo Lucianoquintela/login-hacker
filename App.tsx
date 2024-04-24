@@ -18,13 +18,18 @@ export default function App() {
   // funcao esquici minha senha
   const handleForgotButton = () => {
     {
-      alert('Como assim esqueceu a senha?');
+      alert('Como assim esqueceu a senha? OBS: a senha e o email estão no README');
     }
   };
 
   // funcao do  botao entrar
   const handleLoginButton = () => {
-    alert('Dispositivo hackeado!');
+   
+   if ( emailField ==='hacker@email.com' && passwordField === 'hacker004') {
+     alert('Você esta oficialmente no bando')
+   } else {
+      alert('SENHA ERRADA, CLIQUE EM ESQUECI MINHA SENHA OU CADASTRE-SE');
+   } 
   };
 
   // funcao do cadastre-se
