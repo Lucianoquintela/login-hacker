@@ -95,7 +95,7 @@ export const styles = StyleSheet.create({
     fontWeight: 'bold',
     color: '#32CD32',
     
-     marginTop: 3
+
   },
 
   signUpBtnText: {
@@ -116,5 +116,11 @@ export const styles = StyleSheet.create({
   footerText: {
     fontSize: 13,
     color: '#32CD32',
+  },
+
+
+
+   teste: {
+    color: 'white'
   },
 })
